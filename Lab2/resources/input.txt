@@ -1,0 +1,10 @@
+AF = (Q, E, d, q0, F)
+Q = {q0, q1, q2, q3}
+E = {a, b}
+F = {q3}
+d(q0, a) = q1
+d(q1, b) = q2
+d(q2, b) = q3
+d(q3, a) = q1
+d(q2, b) = q2
+d(q1, a) = q1
