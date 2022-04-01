@@ -1,0 +1,23 @@
+START
+function CalculateCubeVolume(var edgeLength)
+{
+    return pow(edgeLength, 3);
+}
+
+function main() 
+{
+    var figure = "cube";
+    
+    message("Write the length of one edge of the cube");
+    input(edgeLength);
+    
+    if(CalculateCubeVolume(edgeLength) < 1000)
+    {
+    output("You can't store 1 liter of water in this cube");
+    }
+    else
+    {
+    output("You can store 1 liter of water in this cube");
+    }
+}
+FINISH
